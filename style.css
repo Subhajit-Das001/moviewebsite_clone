@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+.navbar {
+  width: 100%;
+  height: 52px;
+  background-color: black;
+  }
+
+.navbar-container{
+    display:flex;
+    align-items: center;
+    height: 100%;
+    padding:0 50px;
+    color:white;
+}
+
+.logo-container{
+    flex:1;
+}
+
+.logo{
+    font-family: sans-serif;
+      font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(to right, purple, blue);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.menu-container{
+    flex:6;  
+    
+}
+.menu-list{
+    display: flex;
+    list-style:none;
+
+}
+.menu-list-item{
+    margin: 39px ;
+    
+}
+.profile-container{
+    flex:2;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+   
+}
+.profile-pic{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin-right:22px ;
+}
+
+.sidebar {
+  width: 50px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top:0;
+ display:flex;
+  flex-direction: column;
+  justify-content:right;
+
+}
+.sidebar-icon{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.container{
+    background-color: #171616;
+   height:100%;
+    color:white;
+
+
+}
+.content-container{
+   
+margin-left: 50px;
+}
+.featured-movie{
+    height: 55vh;
+    background-color: aqua;
+    background-image: -moz-linear-gradient();
+
+
+}
+.fea-img{
+    height: 150px;
+    margin-left:930px;
+}
+.content-p{
+    width:500px;
+    margin-left: 940px;
+
+}
+.fea-bottom{
+    margin-left: 1330px;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+.movie-list-item-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.movie-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.movie-list {
+  display: inline-flex;
+  gap: 20px;
+}
+.movie-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.movie-list-item {
+  flex: 0 0 auto;
+  width: 180px;
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.movie-descp {
+  font-size: 14px;
+  width: 100%;
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+
+
+.movie-button{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 2rem;
+    padding:10px;
+    margin-top:15px;
+}
+
